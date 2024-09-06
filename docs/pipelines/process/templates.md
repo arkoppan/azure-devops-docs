@@ -47,7 +47,7 @@ Use templates to define your logic once and then reuse it several times. Templat
 
 ::: moniker range=">=azure-devops-2020"
 
-## Extend from a template
+### Extend from a template
 
 To increase security, you can enforce that a pipeline extends from a particular template. The file `start.yml` defines the parameter `buildSteps`, which is then used in the pipeline `azure-pipelines.yml`. 
 In `start.yml`, if a `buildStep` gets passed with a script step, then it is rejected and the pipeline build fails. 
